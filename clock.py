@@ -14,6 +14,8 @@ def angle():
     hoursHandPassed = minutes / 60
     hours = hours + (5 * hoursHandPassed)
 
-    print(6*((hours * 5)-minutes))
+    degrees = str(round((6 * ((hours * 5) - minutes)),2))+" degrees"
+
+    print(degrees)
 
 angle()
